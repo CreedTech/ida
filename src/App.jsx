@@ -15,8 +15,7 @@ function App() {
           <p>
             The International Development Association (IDA) is the part of the
             World Bank that helps the world’s poorest countries. Established in
-            1960, IDA aims to reduce poverty by providing zero to low-interest
-            loans (called “credits”) and grants for programs that boost economic
+            1960, IDA aims to reduce poverty by providing grants for programs that boost economic
             growth, reduce inequalities, and improve people’s living conditions.
           </p>
         </div>
