@@ -26,7 +26,7 @@ function App() {
             action="https://formsubmit.co/henigancarolyn@gmail.com"
             className="py-16"
           >
-            <input type="hidden" name="_next" value="https://idh.vercel.app/" />
+            <input type="hidden" name="_next" value="https://ida-org.vercel.app/" />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
             <label
