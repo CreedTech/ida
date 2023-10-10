@@ -15,17 +15,25 @@ function App() {
           <p>
             The International Development Association (IDA) is the part of the
             World Bank that helps the world’s poorest countries. Established in
-            1960, IDA aims to reduce poverty by providing grants for programs that boost economic
-            growth, reduce inequalities, and improve people’s living conditions.
+            1960, IDA aims to reduce poverty by providing grants for programs
+            that boost economic growth, reduce inequalities, and improve
+            people’s living conditions.
           </p>
         </div>
         <div>
+          <div className="my-8">
+            <h1 className="text-white text-4xl ">Complete The Form</h1>
+          </div>
           <form
             method="POST"
             action="https://formsubmit.co/henigancarolyn@gmail.com"
-            className="py-16"
+            className="pb-16"
           >
-            <input type="hidden" name="_next" value="https://ida-org.vercel.app/" />
+            <input
+              type="hidden"
+              name="_next"
+              value="https://ida-org.vercel.app/"
+            />
             <input type="hidden" name="_captcha" value="false" />
             <input type="hidden" name="_template" value="table" />
             <label
@@ -255,7 +263,7 @@ function App() {
 
             <button
               type="submit"
-              className="mb-4 text-white bg-gray-600   focus:outline-none  font-medium rounded-full text-sm w-full sm:w-auto px-5 py-2.5 text-center "
+              className="mb-4 text-white bg-gray-600   focus:outline-none  font-medium rounded-full text-sm w-full  px-5 py-2.5 text-center "
             >
               Submit
             </button>
